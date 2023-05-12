@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Gruppo&family=Julee&family=Julius+Sans+One&family=Shadows+Into+Light&display=swap');
+    *
+    {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body
+    {
+        min-height: 100vh;
+        background: linear-gradient(to bottom, rgb(171, 171, 207), rgb(0, 0, 0));
+    }
+
+    .Title{
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 40px;
+        margin-bottom: 75px;
+        margin-top: 35px;
+        color: rgb(158, 127, 197);
+        text-shadow: 0 0 5px rgba(147, 65, 255, 0.603);
+        transition: all 0.15s;
+    }
+    
+    .Title:hover{
+        color: rgba(158, 127, 197, 0.61);
+        text-shadow: 0 0 10px rgba(147, 65, 255, 0.61);
+        background-color: rgba(200, 28, 216, 0.041);
+    }
+
+    .desc{
+        color: rgb(117, 114, 150);
+        margin-top: 25px;
+        margin-bottom: 35px;
+        margin-left: 109px;
+        margin-right: 109px;
+        transition: all 0.15s;
+        padding: 10px;
+    }
+    
+    .desc:hover{
+        color: rgba(110, 88, 136, 0.61);
+        background-color: rgba(117, 110, 204, 0.041);
+    }
+
+    .descc{
+        color: rgb(117, 114, 150);
+        margin-top: 25px;
+        margin-bottom: 75px;
+        margin-left: 109px;
+        margin-right: 109px;
+        transition: all 0.15s;
+        padding: 10px;
+    }
+    
+    .descc:hover{
+        color: rgba(110, 88, 136, 0.61);
+        background-color: rgba(117, 110, 204, 0.041);
+    }
+
+    .nova{
+        height: 60%;
+        width: 50%;
+        margin-left: 2px;
+        margin-right: 50px;
+        margin-bottom: 1000px;
+        transition: all 0.15s;
+    }
+
+    .nova:hover{
+        width: 53%;
+        cursor: pointer;
+    }
+
+    
+    .nova:active{
+        width: 55%;
+    }
+
+    .Logo
+{
+    align-items: center;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 75px;
+    transition: all 0.15s;
+    opacity: 10%;
+}
+
+.Logo:hover{
+    height: 320px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    opacity: 100%;
+}
+
+.Logo:active{
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 20%;
+}
+
+.sai{
+    height: 60%;
+    width: 50%;
+    margin-left: 2px;
+    margin-right: 50px;
+    margin-bottom: 1000px;
+    transition: all 0.15s;
+}
+
+.sai:hover{
+    width: 53%;
+    cursor: pointer;
+}
+
+
+.sai:active{
+    width: 55%;
+}
+
+.Title-N{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    margin-bottom: 75px;
+    margin-top: 35px;
+    color: rgb(100, 80, 124);
+    text-shadow: 0 0 5px rgba(147, 65, 255, 0.603);
+    transition: all 0.15s;
+}
+
+.Title-N:hover{
+    color: rgba(92, 75, 112, 0.61);
+    text-shadow: 0 0 10px rgba(74, 45, 112, 0.61);
+    background-color: rgba(200, 28, 216, 0.041);
+}
+
+.Title-S{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    margin-bottom: 75px;
+    margin-top: 35px;
+    color: rgb(122, 79, 79);
+    text-shadow: 0 0 5px rgba(131, 34, 34, 0.603);
+    transition: all 0.15s;
+}
+
+.Title-S:hover{
+    color: rgba(126, 80, 80, 0.61);
+    text-shadow: 0 0 10px rgba(155, 40, 40, 0.61);
+    background-color: rgba(216, 28, 28, 0.041);
+}
+
+.Title-E{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    margin-bottom: 75px;
+    margin-top: 35px;
+    color: rgb(120, 79, 122);
+    text-shadow: 0 0 5px rgba(131, 34, 126, 0.603);
+    transition: all 0.15s;
+}
+
+.Title-E:hover{
+    color: rgba(126, 80, 116, 0.61);
+    text-shadow: 0 0 10px rgba(155, 40, 149, 0.61);
+    background-color: rgba(216, 28, 200, 0.041);
+}
+    
+.Title-O{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    margin-bottom: 75px;
+    margin-top: 35px;
+    color: rgb(78, 78, 78);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.603);
+    transition: all 0.15s;
+}
+
+.Title-O:hover{
+    color: rgba(68, 68, 68, 0.61);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+.odin{
+    height: 60%;
+    width: 50%;
+    margin-left: 2px;
+    margin-right: 50px;
+    margin-bottom: 1000px;
+    transition: all 0.15s;
+}
+
+.odin:hover{
+    width: 53%;
+    cursor: pointer;
+}
+
+
+.odin:active{
+    width: 55%;
+}
+
+.Desc{
+    color: gray;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 1200px;
+    transition: all 0.15s;
+    padding: 20px;
+}
+
+.Desc:hover{
+    color: rgb(128, 106, 106);
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 1200px;
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+.Descc{
+    color: rgb(255, 0, 0);
+    margin-bottom: 1500px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.Descc:hover{
+    color: rgb(255, 0, 0);
+    margin-bottom: 1500px;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+.Logoo
+{
+    align-items: center;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 6400px;
+    transition: all 0.15s;
+    opacity: 10%;
+}
+
+.Logoo:hover{
+    height: 320px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    opacity: 100%;
+}
+
+.Logoo:active{
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 20%;
+}
+
+.LN {
+    height: 60%;
+    width: 55%;
+    margin-bottom: 300px;
+}
+
+.Desccc{
+    color: gray;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 200px;
+    padding: 20px;
+    transition: all 0.15s;
+}
+
+.Desccc:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+
+.Descccc{
+    color: rgb(255, 0, 0);
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 200px;
+    padding: 20px;
+    transition: all 0.15s;
+}
+
+.Descccc:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+
+.Desccccc{
+    color: rgb(255, 0, 0);
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 2000px;
+    padding: 20px;
+    transition: all 0.15s;
+}
+
+.Desccccc:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+
+.ezera{
+    height: 60%;
+    width: 50%;
+    margin-left: 2px;
+    margin-right: 50px;
+    margin-bottom: 1000px;
+    transition: all 0.15s;
+}
+
+.ezera:hover{
+    width: 53%;
+    cursor: pointer;
+}
+
+
+.ezera:active{
+    width: 55%;
+}

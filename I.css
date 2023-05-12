@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Gruppo&family=Julee&family=Julius+Sans+One&family=Shadows+Into+Light&display=swap');
+    *
+    {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body
+    {
+        min-height: 100vh;
+        background: linear-gradient(to bottom, rgb(22, 24, 22), rgb(18, 19, 18));
+    }
+
+    .Title{
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 40px;
+        margin-bottom: 35px;
+        margin-top: 35px;
+        color: rgb(255, 0, 0);
+        text-shadow: 0 0 5px rgba(255, 0, 0, 0.603);
+        transition: all 0.15s;
+    }
+    
+    .Title:hover{
+        text-decoration: underline;
+        font-size: 50px;
+        background-color: rgba(0, 0, 0, 0.199);
+    }
+
+    .LT
+{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.603);
+    background-color: rgba(255, 0, 0, 0.199);
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.329);
+    transition: all 0.15s;
+    margin-right: 200px;
+}
+
+.LT:hover{
+    height: 60px;
+    width: 160px;
+    cursor: pointer;
+    background-color: rgba(139, 0, 0, 0.199);
+    box-shadow: 0 0 10px rgba(139, 0, 0, 0.329);
+}
+
+.L
+{
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.603);
+    background-color: rgba(0, 255, 34, 0.199);
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(0, 255, 34, 0.329);
+    transition: all 0.15s;
+    margin-left: 200px;
+}
+
+.L:hover{
+    height: 60px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.Desc{
+    color: gray;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 200px;
+    padding: 20px;
+    transition: all 0.15s;
+}
+
+.Desc:hover{
+    color: rgb(97, 57, 57);
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.Logo
+{
+    align-items: center;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 75px;
+    transition: all 0.15s;
+    opacity: 10%;
+}
+
+
+    .Logo:hover{
+        height: 320px;
+        margin-top: 50px;
+        background-color: rgba(0, 0, 0, 0.295);
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        opacity: 100%;
+    }
+    
+    .Logo:active{
+        height: 350px;
+        margin-top: 30px;
+        border-radius: 20%;
+    }
